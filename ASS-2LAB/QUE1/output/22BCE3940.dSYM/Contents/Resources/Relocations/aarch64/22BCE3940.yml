@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ayushmishra/Desktop/Do_Not_open/OperatingSystem/OS-VSC/ASS-2LAB/QUE1/output/22BCE3940'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _calculateAverageTimes, symObjAddr: 0x0, symBinAddr: 0x100002B94, symSize: 0xF8 }
+  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _calculateAverageTimes, symObjAddr: 0x0, symBinAddr: 0x100002B94, symSize: 0xF8 }
+  - { offsetInCU: 0xB2, offset: 0xB2, size: 0x8, addend: 0x0, symName: _printProcessTimes, symObjAddr: 0xF8, symBinAddr: 0x100002C8C, symSize: 0xFC }
+  - { offsetInCU: 0x100, offset: 0x100, size: 0x8, addend: 0x0, symName: _FCFS, symObjAddr: 0x1F4, symBinAddr: 0x100002D88, symSize: 0x22C }
+  - { offsetInCU: 0x185, offset: 0x185, size: 0x8, addend: 0x0, symName: _SJF, symObjAddr: 0x420, symBinAddr: 0x100002FB4, symSize: 0x354 }
+  - { offsetInCU: 0x261, offset: 0x261, size: 0x8, addend: 0x0, symName: _SRTF, symObjAddr: 0x774, symBinAddr: 0x100003308, symSize: 0x3CC }
+  - { offsetInCU: 0x377, offset: 0x377, size: 0x8, addend: 0x0, symName: _PriorityScheduling, symObjAddr: 0xB40, symBinAddr: 0x1000036D4, symSize: 0x354 }
+  - { offsetInCU: 0x453, offset: 0x453, size: 0x8, addend: 0x0, symName: _RoundRobin, symObjAddr: 0xE94, symBinAddr: 0x100003A28, symSize: 0x2C4 }
+  - { offsetInCU: 0x52C, offset: 0x52C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1158, symBinAddr: 0x100003CEC, symSize: 0x104 }
+...

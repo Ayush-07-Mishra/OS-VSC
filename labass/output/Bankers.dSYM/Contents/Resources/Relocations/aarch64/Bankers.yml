@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ayushmishra/Desktop/Do_Not_open/OperatingSystem/OS-VSC/labass/output/Bankers'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _readMatrix, symObjAddr: 0x0, symBinAddr: 0x1000036FC, symSize: 0xBC }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _np, symObjAddr: 0x73C, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x5B, size: 0x8, addend: 0x0, symName: _nr, symObjAddr: 0x740, symBinAddr: 0x100008004, symSize: 0x0 }
+  - { offsetInCU: 0x7E, offset: 0x7E, size: 0x8, addend: 0x0, symName: _max, symBinAddr: 0x1000081C0, symSize: 0x0 }
+  - { offsetInCU: 0xA5, offset: 0xA5, size: 0x8, addend: 0x0, symName: _allocation, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0xBA, offset: 0xBA, size: 0x8, addend: 0x0, symName: _need, symBinAddr: 0x100008350, symSize: 0x0 }
+  - { offsetInCU: 0xCF, offset: 0xCF, size: 0x8, addend: 0x0, symName: _avail, symBinAddr: 0x100008198, symSize: 0x0 }
+  - { offsetInCU: 0xE4, offset: 0xE4, size: 0x8, addend: 0x0, symName: _readMatrix, symObjAddr: 0x0, symBinAddr: 0x1000036FC, symSize: 0xBC }
+  - { offsetInCU: 0x140, offset: 0x140, size: 0x8, addend: 0x0, symName: _displayMatrix, symObjAddr: 0xBC, symBinAddr: 0x1000037B8, symSize: 0xE8 }
+  - { offsetInCU: 0x19C, offset: 0x19C, size: 0x8, addend: 0x0, symName: _calculate_need, symObjAddr: 0x1A4, symBinAddr: 0x1000038A0, symSize: 0xD8 }
+  - { offsetInCU: 0x1EA, offset: 0x1EA, size: 0x8, addend: 0x0, symName: _banker, symObjAddr: 0x27C, symBinAddr: 0x100003978, symSize: 0x334 }
+  - { offsetInCU: 0x2E0, offset: 0x2E0, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x5B0, symBinAddr: 0x100003CAC, symSize: 0x18C }
+...
