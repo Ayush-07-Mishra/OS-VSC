@@ -46,7 +46,7 @@ int main() {
             }
         }
     }
-
+    
     // Calculate average WT and TAT
     float totalWT = 0, totalTAT = 0;
     printf("\nP_ID\tAT\tBT\tWT\tTAT\n");
