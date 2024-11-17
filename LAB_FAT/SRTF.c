@@ -6,7 +6,6 @@ struct PCB {
 
 int main() {
     struct PCB p[10];
-    struct PCB temp;
     int n = 0, time = 0, completed = 0;
 
     // Taking input for the number of processes
