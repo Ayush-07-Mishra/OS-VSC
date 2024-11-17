@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ayushmishra/Desktop/Do_Not_open/OperatingSystem/OS-VSC/labfatASS5/output/fixed'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _firstFit, symObjAddr: 0x0, symBinAddr: 0x1000031A0, symSize: 0x308 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _firstFit, symObjAddr: 0x0, symBinAddr: 0x1000031A0, symSize: 0x308 }
+  - { offsetInCU: 0x156, offset: 0x156, size: 0x8, addend: 0x0, symName: _bestfit, symObjAddr: 0x308, symBinAddr: 0x1000034A8, symSize: 0x368 }
+  - { offsetInCU: 0x27A, offset: 0x27A, size: 0x8, addend: 0x0, symName: _worstFit, symObjAddr: 0x670, symBinAddr: 0x100003810, symSize: 0x370 }
+  - { offsetInCU: 0x39E, offset: 0x39E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9E0, symBinAddr: 0x100003B80, symSize: 0x2DC }
+...

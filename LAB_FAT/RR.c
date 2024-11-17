@@ -32,7 +32,7 @@ int main() {
     // Round Robin scheduling
     while (completed < n) {
         for (int i = 0; i < n; i++) {
-            if (p[i].rt > 0 && p[i].at <= time) { // If process has remaining time and has arrived
+            if (p[i].at <= time && p[i].rt > 0) { // If process has remaining time and has arrived
                 if (p[i].rt > tq) {
                     time += tq;  // Process runs for time quantum
                     p[i].rt -= tq;
