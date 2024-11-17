@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ayushmishra/Desktop/Do_Not_open/OperatingSystem/OS-VSC/ASS5/output/LOOK'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _compare, symObjAddr: 0x0, symBinAddr: 0x1000037BC, symSize: 0x28 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _compare, symObjAddr: 0x0, symBinAddr: 0x1000037BC, symSize: 0x28 }
+  - { offsetInCU: 0x83, offset: 0x83, size: 0x8, addend: 0x0, symName: _LOOK, symObjAddr: 0x28, symBinAddr: 0x1000037E4, symSize: 0x504 }
+  - { offsetInCU: 0x19D, offset: 0x19D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x52C, symBinAddr: 0x100003CE8, symSize: 0x1A8 }
+...

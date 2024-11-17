@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ayushmishra/Desktop/Do_Not_open/OperatingSystem/OS-VSC/LAB_FAT/output/sstf_prac'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _sstf, symObjAddr: 0x0, symBinAddr: 0x100003AF8, symSize: 0x280 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _sstf, symObjAddr: 0x0, symBinAddr: 0x100003AF8, symSize: 0x280 }
+  - { offsetInCU: 0x12F, offset: 0x12F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x280, symBinAddr: 0x100003D78, symSize: 0x16C }
+...

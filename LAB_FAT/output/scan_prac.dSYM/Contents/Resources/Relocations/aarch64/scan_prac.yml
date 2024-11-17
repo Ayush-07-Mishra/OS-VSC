@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ayushmishra/Desktop/Do_Not_open/OperatingSystem/OS-VSC/LAB_FAT/output/scan_prac'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _compare, symObjAddr: 0x0, symBinAddr: 0x1000037C4, symSize: 0x28 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _compare, symObjAddr: 0x0, symBinAddr: 0x1000037C4, symSize: 0x28 }
+  - { offsetInCU: 0x83, offset: 0x83, size: 0x8, addend: 0x0, symName: _scan, symObjAddr: 0x28, symBinAddr: 0x1000037EC, symSize: 0x4A4 }
+  - { offsetInCU: 0x1C3, offset: 0x1C3, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x4CC, symBinAddr: 0x100003C90, symSize: 0x1D4 }
+...
