@@ -6,7 +6,7 @@ int compare(const void *a, const void *b) {
     return (*(int *)a - *(int *)b);
 }
 
-void Look(int requests[], int n, int head, int direction, int diskSize) {
+void aLook(int requests[], int n, int head, int direction, int diskSize) {
     int seektime = 0;
     int sorted[n + 3];
 
@@ -37,7 +37,7 @@ void Look(int requests[], int n, int head, int direction, int diskSize) {
             seektime += abs(head - sorted[i]);
             head = sorted[i];
         }
-        for (int i = headIndex - 1; i > 0; i--) {
+        for (int i = 1; i < headIndex; i++) {
             printf("Move from %d to %d is %d\n", head, sorted[i], abs(head - sorted[i]));
             seektime += abs(head - sorted[i]);
             head = sorted[i];
@@ -48,7 +48,7 @@ void Look(int requests[], int n, int head, int direction, int diskSize) {
             seektime += abs(head - sorted[i]);
             head = sorted[i];
         }
-        for (int i = headIndex + 1; i < n + 2; i++) {
+        for (int i = n+1; i > headIndex; i--) {
             printf("Move from %d to %d is %d\n", head, sorted[i], abs(head - sorted[i]));
             seektime += abs(head - sorted[i]);
             head = sorted[i];
@@ -80,7 +80,7 @@ int main() {
     printf("Enter the direction (0 - towards lower values, 1 - towards higher values): ");
     scanf("%d", &direction);
 
-    Look(requests, n, head, direction, diskSize);
+    aLook(requests, n, head, direction, diskSize);
 
     return 0;
 }
