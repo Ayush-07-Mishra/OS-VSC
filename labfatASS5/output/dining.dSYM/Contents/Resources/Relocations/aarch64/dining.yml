@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ayushmishra/Desktop/Do_Not_open/OperatingSystem/OS-VSC/labfatASS5/output/dining'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _philosopher, symObjAddr: 0x0, symBinAddr: 0x100003CF8, symSize: 0x10C }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _chopstick, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x74, offset: 0x74, size: 0x8, addend: 0x0, symName: _philosopher, symObjAddr: 0x0, symBinAddr: 0x100003CF8, symSize: 0x10C }
+  - { offsetInCU: 0x98, offset: 0x98, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x10C, symBinAddr: 0x100003E04, symSize: 0xE8 }
+...
